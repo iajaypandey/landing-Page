@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.left_container{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+
+.nav_bar{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1rem;
+}
+
+.nav_bar_left{
+    margin-left: 2rem;
+}
+.nav_bar_left i{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.nav_bar_left i:hover{
+    transform: scale(1.2);
+    transition: all .1s;
+}
+
+.nav_bar_right{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.nav_bar_right a{
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar_right a:hover{
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+    transition: all .3s ;
+    border-bottom-left-radius: 2px;
+    font-weight: bold;
+}
+
+
+.nav_bar_right i{
+    color: rgb(29, 161, 242);
+    font-size: 1.4rem;
+}
+
+.text_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text_center h1{
+    font-size: 80px;
+}
+
+.text_center p{
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .6;
+}
+
+.text_center a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .6;
+
+}
+
+/* Right Container */
+
+
+.right_container{
+    width: 60%;
+    height: 100%; 
+}
+.right_top{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(149, 149, 232);
+    display: flex
+}
+
+.right_left{
+    width: 55%;
+    height: 100%;
+    background-image: url(photo-4.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.right_right{
+    width: 45%;
+    height: 100%;
+    background-image: url(photo-3.avif);
+    background-size: cover;
+    background-position: bottom;
+}
+.right_bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(photo-2.avif);
+    background-size: cover;
+    background-position: bottom;
+    
+}
